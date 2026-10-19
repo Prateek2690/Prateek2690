@@ -12,7 +12,7 @@ My research addresses it directly: methods that make regulatory figures, risk me
 **What I bring**
 - **Industry leadership:** production ownership of regulatory risk pipelines (CCAR, CECL, FR Y-14) covering about $566 billion in exposure, and of a portfolio-rebalancing platform running across 1,000+ accounts every day
 - **Risk governance:** model risk management under SR 11-7, with model review and reporting to senior risk management
-- **Research and authorship:** three papers on safe automated correction, change attribution, and faithful explanation in financial systems, with open-source, DOI-registered code
+- **Research and authorship:** three papers on safe automated correction, change attribution, and faithful explanation in financial systems, with open-source code
 - **Training:** mathematics (IISER), quantitative finance (Rutgers), and data science (Saint Peter's)
 
 ---
@@ -69,10 +69,10 @@ My research addresses it directly: methods that make regulatory figures, risk me
 | Paper | Status | Code |
 |---|---|---|
 | **A Safety Gate for AI-Driven Data Repair in Regulated Financial Reporting**: a verification gate that provably prevents automated repairs from silently misstating a reported figure such as a credit-loss allowance | SSRN preprint, Sept 2026 ([7432699](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7432699)) · not yet peer-reviewed | [matrepair](https://github.com/Prateek2690/matrepair) · [![DOI](https://zenodo.org/badge/1418606691.svg)](https://doi.org/10.5281/zenodo.23362560) |
-| **Silent Defaults and Phantom Effects**: owner-aware attribution of expected-loss changes in versioned reporting pipelines, with evidence from public SBA loan data | SSRN preprint, Sept 2026 ([7486440](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7486440)) · not yet peer-reviewed | release in preparation |
-| **Faithful by Construction?**: measuring whether explanations of portfolio-optimization decisions are true to the computation | Working paper, 2026 | release in preparation |
+| **Silent Defaults and Phantom Effects**: owner-aware attribution of expected-loss changes in versioned reporting pipelines, with evidence from public SBA loan data | SSRN preprint, Sept 2026 ([7486440](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7486440)) · not yet peer-reviewed | [silent-defaults-attribution](https://github.com/Prateek2690/silent-defaults-attribution) |
+| **Faithful by Construction? An Exact Test of LLM Explanations for Constrained Portfolio Optimization Decisions**: checks every claim in an LLM's explanation of a portfolio-optimization decision against the solver's exact ground truth | SSRN preprint, Oct 2026 ([7625878](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7625878)) · not yet peer-reviewed | [faithful-by-construction](https://github.com/Prateek2690/faithful-by-construction) |
 
-All papers use only public or synthetic data and release their code under the MIT License.
+All papers use only public or synthetic data, and all code is released under the MIT License.
 
 #### Research interests
 
